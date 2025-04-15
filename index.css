@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+body {
+
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url(images.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* Faz a imagem cobrir toda a tela */
+    background-position: center;
+    /* Centraliza a imagem */
+    background-repeat: no-repeat;
+    /* Impede que a imagem se repita */
+    margin: 0;
+    /* Remove a margem padrão do body */
+    height: 100vh;
+
+
+
+}
+
+#principal {
+    background-color: rgb(255, 255, 255);
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+    margin: 50px;
+}
+
+button {
+    width: 150px;
+    background-color: #00030a;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+    border: none;
+    transition: 0.3s;
+    cursor: pointer;
+    font-weight: bold;
+
+}
+
+button:hover {
+    background-color: gray;
+}
+
+label {
+    font-weight: bold;
+    color: rgb(87, 87, 87);
+    min-width: 100px;
+    /* Define uma largura fixa para o label */
+    text-align: right;
+    /* Alinha o texto do label à direita */
+
+
+
+}
+
+h3 {
+    /* Formatação do texto Registro de Ocorrencia */
+    text-align: center;
+}
+
+h5 {
+    /* Formatação do texto Guarda Municipal de Aracaju */
+    text-align: center;
+}
+
+#botao {
+    text-align: center;
+    margin-top: 10px;
+
+}
+
+#login-form {
+    margin: 20px;
+
+}
+
+
+
+
+
+#principal {
+    text-align: center;
+}
+
+.login-container {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input,
+button {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+    padding: 8px;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.error {
+    color: red;
+}

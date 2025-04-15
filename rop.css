@@ -1,0 +1,321 @@
+
+body {  margin: 0 auto;     
+        width: 940px;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10pt;
+        background-image: url(images.jpg);
+        background-size: cover;       /* faz a imagem cobrir todo o fundo */
+        background-position: center;  /* centraliza a imagem */
+        background-repeat: no-repeat; /* evita que a imagem se repita */
+}
+
+.fundopreto {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 13px;
+    padding: 3px;
+    margin: 0;
+}
+
+.fundocinza {
+    background-color: rgb(180, 180, 180);
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 14px;
+    border: 1px solid black;
+    word-spacing: 12px; /* tamanho do espaço entre cada palavra */
+}
+
+.container{
+    text-align: center;
+    background-color: white;
+}
+
+.gmsocorrencia{
+    background-color: black;
+    padding: 10px;
+    width: 40%;
+}
+.tabela3cabeca{
+    width: 25%;
+
+}
+
+#dados1{
+    display: none;
+}
+
+.prefeitura{
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+   border-collapse: collapse;
+}
+
+/*.prefeitura tr td{
+    border: 1px solid black;
+}*/
+
+.prefeitura2{  /* Espeço onde tem Prefeitura de Aracaju*/
+    text-align: center;
+    border-collapse: collapse;
+    width: 300px;
+    font-size: 12px;
+}
+.tdimg{ /* Espaço onde vai ficar a imagem */
+        width: 75px;
+        text-align: center;
+}
+img{
+    width: 80px;
+    height: 80px;
+}
+
+.registro-ocorrencia{
+    width: 700px;
+}
+
+.tabela3{
+    text-align: center;
+    border-collapse: collapse;   
+}
+
+.nomematricula{
+    width: 300px;
+}
+
+.postodeservico input{
+    border: none; 
+    text-align: center;
+    width: 35%;
+}
+.postodeservico{
+    background-color: white;
+    border: 1px solid black;
+    margin: 0;
+}
+.assinaturaequipe{
+    background-color: white;
+    width: 938px;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    border: 1px solid black;
+    margin: 0px;
+}
+
+
+.descricao{
+
+    padding: 10px;
+    border: 1px solid;
+}
+
+
+h1{
+    background-color: black;
+    color: white;
+    letter-spacing: 12px; /* tamanho do espaço entre cada letra */ 
+    word-spacing: 20px; /* tamanho do espaço entre cada palavra */
+    text-align: center;
+    margin: 0;
+    font-size: 25px;
+    padding: 10px;
+
+}
+
+
+textarea{
+    width: 878px;
+    border: 1px solid black;
+    resize:vertical;
+    padding: 30px;
+    outline: none;
+    margin: 0;
+    font-size: 12pt;
+
+}
+
+table tr td{
+    border: 1px solid black;
+    background-color: white;
+
+}
+
+.pai{
+
+    width: 330px;
+    
+}
+
+
+.end{
+    width: 600px;
+}
+
+#telefone{
+    width:247px;
+}
+
+#conduzidos{
+    border-collapse: collapse;
+
+}
+#pai{
+    width: 280px;
+}
+#mae{
+    width: 273px; 
+}
+#end{
+    width: 540px;
+}
+
+#nome{
+    width: 280px;
+}
+
+input{
+    text-align: center;
+}
+
+#tabeladados{
+    border-collapse: collapse;
+}
+
+.tddescricao{
+    width: 620px;
+}
+
+
+#descricao1{
+    width: 370px; 
+}
+
+input, option, select{
+    border: none;
+}
+
+.divbotao{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.imprimir{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.cpf{
+    width: 350px;
+}
+
+#tabelaconduz {
+    display: none;
+}
+
+
+
+
+/* Estilização do campo Imagens do Ocorrifo */
+.container{
+    background-color: #ffffff;  
+    border: 1px solid black; 
+    position: relative;
+    padding: 10px 20px;
+
+
+}
+
+input[type="file"]{
+    display: none;   
+    border: 1px solid rgb(185, 0, 0);   
+    
+}
+
+
+label{
+    display: block;
+    background-color: #e0e0e0;
+    position: relative;
+    color: rgb(0, 0, 0);
+    font-size: 12pt;
+    text-align: center;
+    width: 120px;
+    padding: 2px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2px;
+    cursor: pointer;
+    border: 1px solid black; 
+
+}
+
+.container p{
+    text-align: center;
+    margin: auto;
+    border: none; 
+
+}
+
+#images{
+
+    width: 100%;
+    position: relative;
+    margin: auto;
+    display: flex;    
+    justify-content: space-evenly;
+    gap: 5px;
+    flex-wrap: wrap;
+    /*border: 1px solid black; */
+}
+
+figure{
+    width: 40%;
+    
+}
+
+img{
+    width: 100%;
+    height: 100%;
+}
+
+figcaption{
+    text-align: center;
+    font-size: 5px;
+    margin-top: 0.5vmin;    
+}
+
+    /* Centraliza o botão */
+    .button-container {
+        display: flex;
+        justify-content: center;
+        margin-top: 5px; /* Espaço superior */
+        margin-bottom: 5px; /* Espaço superior */
+
+    }
+
+    /* Estilo para o botão */
+    .excluir-btn {
+        background-color: red; /* Cor de fundo vermelha */
+        color: white; /* Cor do texto branca */
+        padding: 2px 5px; /* Tamanho do botão */
+        border: none; /* Sem borda */
+        border-radius: 5px; /* Bordas arredondadas */
+        font-size: 10px; /* Tamanho da fonte */
+        cursor: pointer; /* Mãozinha ao passar o mouse */
+        transition: background-color 0.3s; /* Efeito suave ao passar o mouse */
+    }
+
+    /* Mudança de cor ao passar o mouse */
+    .excluir-btn:hover {
+        background-color: darkred;
+    }
+
+
+   
