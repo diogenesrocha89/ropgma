@@ -1,8 +1,8 @@
 
 const users = {
     "rocha": "307492",
-    "joao": "4567",
-    "maria": "7890"
+    "campos": "popgma2025",
+    "ropgma": "ropgma25"
 };
 
 function inserir() {
