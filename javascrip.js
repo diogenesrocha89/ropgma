@@ -97,6 +97,42 @@ function login() {
 }
 
 
+const uploadInput = document.getElementById('upload');
+const previewContainer = document.getElementById('previewContainer');
+
+uploadInput.addEventListener('change', function () {
+    const files = this.files;
+
+    Array.from(files).forEach(file => {
+        if (!file.type.startsWith('image/')) return;
+
+        const reader = new FileReader();
+        reader.onload = function (e) {
+            const imageBox = document.createElement('div');
+            imageBox.classList.add('image-box');
+
+            const img = document.createElement('img');
+            img.src = e.target.result;
+
+            const removeBtn = document.createElement('button');
+            removeBtn.classList.add('remove-btn');
+            removeBtn.textContent = 'Remover';
+
+            removeBtn.addEventListener('click', () => {
+                previewContainer.removeChild(imageBox);
+            });
+
+            imageBox.appendChild(img);
+            imageBox.appendChild(removeBtn);
+            previewContainer.appendChild(imageBox);
+        };
+
+        reader.readAsDataURL(file);
+    });
+
+    this.value = ''; // Permite reupload da mesma imagem
+});
+
 
 
 

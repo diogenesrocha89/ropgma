@@ -167,11 +167,13 @@
                 V - IMAGENS DO OCORRIDO
             </div>
             <div class="container">
-                <input type="file" id="file-input" accept="image/png, image/jpeg" onchange="preview()" multiple>
+                <input type="file" id="upload" accept="image/*" multiple>
 
-                <p id="num-of-files"> </p>
-                <div id="images"> </div>
-                <label for="file-input"> Selecionar </label>
+                <!-- Botão personalizado -->
+                <button class="custom-btn" onclick="document.getElementById('upload').click()">Escolher
+                    Arquivos</button>
+
+                <div class="preview-container" id="previewContainer"></div>
             </div>
 
             <table class="tabela3">
@@ -250,7 +252,8 @@
 
 
             <div class="assinaturaequipe">
-                __________________________________________________________ <br> Assinatura do responsável pela equipe
+                __________________________________________________________ <br> <strong>Assinatura do responsável pela
+                    equipe </strong>
             </div>
 
 
@@ -272,7 +275,7 @@
                 <br>
                 <br>
                 __________________________________________________________ <br>
-                Assinatura da Autoridade Policial
+                <strong> Assinatura da Autoridade Policial </strong>
             </div>
 
             <div class="fundopreto">
