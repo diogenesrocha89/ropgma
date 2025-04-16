@@ -2,7 +2,8 @@
 const users = {
     "rocha": "307492",
     "campos": "popgma2025",
-    "ropgma": "ropgma25"
+    "ropgma": "ropgma25",
+    "vanisson": "gsi2@25"
 };
 
 function inserir() {
